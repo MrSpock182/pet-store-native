@@ -10,21 +10,19 @@
  * OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions
  * and limitations under the License.
  */
-package com.amazonaws.serverless.sample.springboot3.controller;
+package io.github.mrspock182.petstore.controller;
 
 
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.amazonaws.serverless.sample.springboot3.model.Pet;
-import com.amazonaws.serverless.sample.springboot3.model.PetData;
+import io.github.mrspock182.petstore.model.Pet;
+import io.github.mrspock182.petstore.model.PetData;
 
 import java.security.Principal;
 import java.util.Optional;

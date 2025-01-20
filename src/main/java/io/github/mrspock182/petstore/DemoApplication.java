@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot3;
+package io.github.mrspock182.petstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

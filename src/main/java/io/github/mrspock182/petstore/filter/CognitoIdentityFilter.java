@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot3.filter;
+package io.github.mrspock182.petstore.filter;
 
 
 import com.amazonaws.serverless.proxy.RequestReader;

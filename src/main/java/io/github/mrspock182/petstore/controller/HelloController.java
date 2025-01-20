@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot3.controller;
+package io.github.mrspock182.petstore.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
