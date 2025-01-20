@@ -12,8 +12,8 @@ Resources:
       Handler: NOP
       Runtime: provided.al2023
 #     If you want to build for ARM64 uncomment the following lines
-#      Architectures:
-#        - arm64
+      Architectures:
+        - arm64
       Events:
         HttpApiEvent:
           Type: HttpApi
